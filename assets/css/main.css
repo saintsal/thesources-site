@@ -1,3 +1,95 @@
+/*! Typebase.less v0.1.0 | MIT License */
+/* Setup */
+html {
+  /* Change default typefaces here */
+  font-family: serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+}
+/* Copy & Lists */
+p {
+  line-height: 1.5rem;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Change heading typefaces here */
+  font-family: sans-serif;
+  margin-bottom: 0;
+  line-height: 1.3rem;
+}
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+}
+h2 {
+  font-size: 2.828rem;
+  margin-top: 3rem;
+}
+h3 {
+  font-size: 1.414rem;
+}
+h4 {
+  font-size: 0.707rem;
+}
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+h6 {
+  font-size: 0.3535rem;
+}
+/* Tables */
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+table td,
+table th {
+  padding: 0;
+  line-height: 33px;
+}
+/* Code blocks */
+code {
+  vertical-align: bottom;
+}
+/* Leading paragraph text */
+.lead {
+  font-size: 1.414rem;
+}
+/* Hug a the block above you */
+.hug {
+  margin-top: 0;
+}
+
+
 /*
  * Author: Carlos Alvarez
  * URL: http://alvarez.is
@@ -7,44 +99,47 @@
  * URL: http://blacktie.co
  */
 
+@import url(http://fonts.googleapis.com/css?family=Offside|Oxygen:400,700);
+
 body {
-  background-color: #f2f2f2;
-    font-family: 'Lato', sans-serif;
+    background: #000;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    color: #555;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #333;
+h1  {
+    font-family: 'Offside', cursive;
+    text-transform: lowercase;
 }
 
 h1 {
 	font-size: 40px;
 }
 
+h2 {
+	font-size: 30px;
+}
+
 h3 {
-	color: #95a5a6;
 	font-weight: 400;
 }
 
 h4 {
-	color: #95a5a6;
 	font-weight: 400;
-	font-size: 20px;
+	font-size: 22px;
 }
 
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 22px;
 }
 
 .centered {
@@ -89,7 +184,7 @@ a:after {
 }
 
 .navbar-default {
-	background-color: #3498db;
+	background-color: #000;
 	border-color: transparent;
 }
 
@@ -119,11 +214,13 @@ i {
 	color: #3498db; 
 }
 
+.btn {
+    border-color:#19cb54;
+    background:#19cb54;
+}
 
 /* HeaderWrap */
 #headerwrap {
-	/* background: url(../img/bg01.jpg) no-repeat center top; */
-	background-color: #3498db;
 	margin-top: -20px;
 	padding-top:200px;
 	background-attachment: relative;
@@ -150,3 +247,4 @@ i {
 	font-weight: 300;
 	letter-spacing: 1px;
 }
+
