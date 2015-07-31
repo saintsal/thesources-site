@@ -7,7 +7,6 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 /* Copy & Lists */
-
 p {
   line-height: 1.5rem;
   margin-bottom: 0;
@@ -90,11 +89,6 @@ code {
   margin-top: 0;
 }
 
-.row {
-  margin-right: 0px !important;
-  margin-left: 0px !important;
-}
-
 
 /*
  * Author: Carlos Alvarez
@@ -105,88 +99,88 @@ code {
  * URL: http://blacktie.co
  */
 
- @import url(http://fonts.googleapis.com/css?family=Offside|Oxygen:400,700);
+@import url(http://fonts.googleapis.com/css?family=Offside|Oxygen:400,700);
 
-body {/*
+body {
     background: #000;
-    color: #fff;*/
+    color: #fff;
     font-family: 'Oxygen', sans-serif;
     font-weight: 300;
     font-size: 16px;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-  }
+}
 
-  /* Titles */
-  h1  {
+/* Titles */
+h1  {
     font-family: 'Offside', cursive;
     text-transform: lowercase;
-  }
+}
 
-  h1 {
-   font-size: 40px;
- }
+h1 {
+	font-size: 40px;
+}
 
- h2 {
-   font-size: 30px;
- }
+h2 {
+	font-size: 30px;
+}
 
- h3 {
-   font-weight: 400;
- }
+h3 {
+	font-weight: 400;
+}
 
- h4 {
-   font-weight: 400;
-   font-size: 22px;
- }
+h4 {
+	font-weight: 400;
+	font-size: 22px;
+}
 
- /* Paragraph & Typographic */
- p {
-  line-height: 28px;
-  margin-bottom: 25px;
-  font-size: 22px;
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 22px;
 }
 
 .centered {
-  text-align: center;
+    text-align: center;
 }
 
 /* Links */
 a {
-  color: #3498db;
-  word-wrap: break-word;
+    color: #3498db;
+    word-wrap: break-word;
 
-  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-  transition: color 0.1s ease-in, background 0.1s ease-in;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
 a:hover,
 a:focus {
-  color: #fff;
-  text-decoration: none;
-  outline: 0;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
 }
 
 a:before,
 a:after {
-  -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-  -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-  transition: color 0.1s ease-in, background 0.1s ease-in;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
 
 .navbar-default {
@@ -226,34 +220,34 @@ i {
 }
 
 .btn {
-  border-color:#19cb54;
-  background:#19cb54;
+    border-color:#19cb54;
+    background:#19cb54;
 }
 
 /* HeaderWrap */
 #headerwrap {
-	/*margin-top: -20px;*/
-	padding-top:55px;
+	margin-top: -20px;
+	padding-top:200px;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
 	
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #headerwrap h1 {
 	margin-top: 60px;
 	margin-bottom: 15px;
-	color: #000;
+	color: white;
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
@@ -261,57 +255,5 @@ i {
 
 
 .partner-logo {
-  max-width: 150px;
+    max-width: 150px;
 }
-
-
-/*Styling for new interface*/
-
-.header{
-  background: #7F7E7E;
-  color: #eee;
-  padding-top: 80px;
-  padding-bottom: 60px;
-}
-
-.header h4{
-  color: #212c37;
-}
-
-.signup-action{
-  background-color: #464646;
-}
-
-.signup-action p{
-  color: #eee;
-}
-
-.topics-section{
-  background-color: #7F7E7E;
-  color: #212c37;
-}
-
-.topics-section p{
-  color: #fff;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.margin-bottom{
-  margin-bottom: 60px;
-}
-
-.founders{
-  padding-top:0px !important;
-}
-
-.footer{
-  background-color: #000;
-  color: #eee;
-}
-
-button{
-  color: #fff;
-}
-
-/*End of Styling for new interface*/
