@@ -1,2 +1,2 @@
 # The Sources homepage
-This is the homepage for thesources.co
+homepage for thesources.co
