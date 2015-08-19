@@ -83,7 +83,7 @@
                       <input type="hidden" name="formID" value="51876164047965" />
 					    <input type="email" class="form-control email form-textbox validate[Email]"  placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
        
-					  <button type="submit" class="btn btn-lg">Free Signup</button>
+					  <button type="submit" class="signup btn btn-lg">Free Signup</button>
                       <div class="error"></div>
 					</form>					
 
@@ -215,7 +215,7 @@
 					    <input type="email" class="form-control email form-textbox validate[Email]"  placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
        
 					  </div>
-					  <button type="submit" class="btn btn-lg">Free Signup</button>
+					  <button type="submit" class="signup btn btn-lg">Free Signup</button>
                       <div class="error"></div>
 					</form>					
 
@@ -309,7 +309,7 @@
 					    <input type="email" class="form-control email form-textbox validate[Email]"  placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
        
 					  </div>
-					  <button type="submit" class="btn btn-lg">Free Signup</button>
+					  <button type="submit" class="signup btn btn-lg">Free Signup</button>
                       <div class="error"></div>
 					</form>					
 
@@ -407,6 +407,15 @@
 
   ga('create', 'UA-41612032-5', 'auto');
   ga('send', 'pageview');
+
+</script>
+<script>
+$(document).ready(function () {
+    $('button.signup]').click(function (e) {
+        // Track when a registration form is completed (ex. complete subscription, sign up for a service)
+        fbq('track', 'CompleteRegistration'); 
+    });
+});
 
 </script>
   </body>
