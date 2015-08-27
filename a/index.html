@@ -100,10 +100,10 @@ window.__wtw_lucky_site_id = 41399;
             <div class="col-lg-12">
               <p>Get a weekly 5-minute video with actionable resources for your business, over email or SMS.</p>
 
-              <form class="jotform-form form-inline signupform" action="http://submit.jotformpro.com/submit/51876164047965/" method="post" role="form" name="form_51876164047965" id="51876164047965" accept-charset="utf-8">
+              <form class="jotform-form form-inline signupform" action="http://submit.jotformpro.com/submit/51876164047965/" method="post" role="form" name="form_51876164047965" id="51876164047965" onsubmit="return continueOrNot(this)" accept-charset="utf-8">
 
                 <input type="hidden" name="formID" value="51876164047965" />
-                <input type="email" class="form-control email form-textbox validate[Email]"  placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
+                <input type="email" class="form-control email form-textbox validate[Email]" name="email" placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
 
                 <button type="submit" class="signup btn btn-lg">Free Signup</button>
                 <div class="error"></div>
@@ -212,11 +212,11 @@ window.__wtw_lucky_site_id = 41399;
               <h1>Changing landscapes</h1>
               <p> We're in a fast-changing environment, so new topics and new lessons are bound to emerge. We listen to you about your challenges, and find the right sources to guide you.</p>
 
-              <form class="jotform-form form-inline signupform" action="http://submit.jotformpro.com/submit/51876164047965/" method="post" role="form" name="form_51876164047965" id="51876164047965" accept-charset="utf-8">
+              <form class="jotform-form form-inline signupform" action="http://submit.jotformpro.com/submit/51876164047965/" method="post" role="form" name="form_51876164047965" id="51876164047965" onsubmit="return continueOrNot(this)" accept-charset="utf-8">
 
                 <input type="hidden" name="formID" value="51876164047965" />
                 <div class="form-group">
-                 <input type="email" class="form-control email form-textbox validate[Email]"  placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
+                 <input type="email" class="form-control email form-textbox validate[Email]" name="email" placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
 
                </div>
                <button type="submit" class="signup btn btn-lg">Free Signup</button>
@@ -303,11 +303,11 @@ window.__wtw_lucky_site_id = 41399;
               <h1>Free - start now!</h1>
               <p>The Sources is a free course.</p>
               <p>Every week, you'll get a new short lesson, containing a short video of founders sharing their experience, and practical guides so you can instantly apply what you've learned to your business.</p>
-              <form class="jotform-form form-inline signupform" action="http://submit.jotformpro.com/submit/51876164047965/" method="post" role="form" name="form_51876164047965" id="51876164047965" accept-charset="utf-8">
+              <form class="jotform-form form-inline signupform" action="http://submit.jotformpro.com/submit/51876164047965/" method="post" role="form" name="form_51876164047965" id="51876164047965" onsubmit="return continueOrNot(this)" accept-charset="utf-8">
 
                 <input type="hidden" name="formID" value="51876164047965" />
                 <div class="form-group">
-                 <input type="email" class="form-control email form-textbox validate[Email]"  placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
+                 <input type="email" class="form-control email form-textbox validate[Email]" name="email" placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
 
                </div>
                <button type="submit" class="signup btn btn-lg">Free Signup</button>
@@ -372,11 +372,11 @@ window.__wtw_lucky_site_id = 41399;
 
     <div class="row centered margin-bottom">
      <div class="col-lg-6 col-lg-offset-3">
-      <form class="jotform-form form-inline signupform" action="http://submit.jotformpro.com/submit/51876164047965/" method="post" role="form" name="form_51876164047965" id="51876164047965" accept-charset="utf-8">
+      <form class="jotform-form form-inline signupform" action="http://submit.jotformpro.com/submit/51876164047965/" method="post" role="form" name="form_51876164047965" id="51876164047965" onsubmit="return continueOrNot(this)" accept-charset="utf-8">
 
         <input type="hidden" name="formID" value="51876164047965" />
         <div class="form-group">
-         <input type="email" class="form-control email form-textbox validate[Email]"  placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
+         <input type="email" class="form-control email form-textbox validate[Email]" name="email" placeholder="Enter your email address" id="input_4" name="q4_input4" size="30" value="" />
 
        </div>
        <button type="submit" class="signup btn btn-lg">Free Signup</button>
@@ -403,6 +403,16 @@ window.__wtw_lucky_site_id = 41399;
   ga('create', 'UA-41612032-5', 'auto');
   ga('send', 'pageview');
 
+</script>
+  <script>
+  function continueOrNot(currentElement) {
+    var email = currentElement.email.value;
+    if(!email) {
+      return false;
+    } else {
+      return true;
+    }
+  }
 </script>
  </body>
 </html>
