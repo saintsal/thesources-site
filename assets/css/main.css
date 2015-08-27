@@ -257,3 +257,7 @@ i {
 .partner-logo {
     max-width: 150px;
 }
+
+.product-social-links {
+    line-height: 10px;
+}
