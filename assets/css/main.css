@@ -3367,9 +3367,8 @@
 	margin: 0;
 }
 .contactf input[type="email"] {
-	height: 2em;
+	height: 3em;
 	width: 300px;
 	display: inline;
 	border: 1px solid black;
-	padding-top: 10px;
 }
