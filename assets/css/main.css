@@ -83,10 +83,6 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("images/overlay.png"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), -ms-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
-		background-image: url("images/overlay.png"), linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.65)), url("../../images/bg.jpg");
 		background-position: top left, bottom left, auto;
 		background-size: auto, 100% 100%, cover;
 		background-attachment: fixed;
@@ -400,7 +396,7 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #3bbb76;
+				background-color: #469f31;
 				background-image: url("images/overlay.png");
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -418,15 +414,12 @@ input, select, textarea {
 			}
 
 				#main .item.intro h1 {
-					font-size: 3em;
+					font-size: 2em;
 					line-height: 1em;
 				}
 
 				#main .item.intro p {
 					font-size: 1.25em;
-					line-height: 1.5em;
-					margin: 0.5em 0 0 0;
-					opacity: 0.65;
 				}
 
 			#main .item.thumb {
